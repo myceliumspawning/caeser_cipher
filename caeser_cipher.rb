@@ -1,8 +1,8 @@
-# Ask user for input
+# Asks user for input
 puts "Enter the message you wish to encrypt:"
 user_input = gets.chomp
 
-puts "Enter the key"
+puts "Enter the key:"
 key = gets.chomp.to_i
 
 def caeser_cipher(user_input, key)
